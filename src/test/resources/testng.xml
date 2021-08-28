@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" verbose="1">
+	<test name="samplePage Test">
+		<listeners>
+			<listener class-name="ScreenshotListener" />
+		</listeners>
+		<classes>
+			<class name="haelysan.Swaglabs.SwaglabsLoginTests">
+			</class>
+			<class name="haelysan.Swaglabs.SwaglabsProductPageTests">
+			</class>
+		</classes>
+	</test>
+</suite>

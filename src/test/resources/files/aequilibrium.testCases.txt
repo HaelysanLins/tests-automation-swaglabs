@@ -1,0 +1,41 @@
+ Login feature - Test Cases
+
+Sr.No.	Functional Test Cases
+
+1.	Verify if a user will be able to login with a valid username and valid password (usermane: standard_user)
+
+2.	Verify if a user will be able to login with a blocked user and can't access (locked_out_user).
+
+3.	Verify if a user will be able to login with a problem user. (problem_user)
+ 			1. The name of the items are wrong
+			2. Some items can not be added to the cart
+			3. Some items can not be removed stand on the product page,
+			4. Some Items that were added to the cart on his page, they are not being displayed with addicted to cart
+			5. Some items can not be added to the card on the item page, you can only add them to the cart on the product page
+			6. The images the items on the product page are all equal and they do not answer the picture of each item.
+			7. The label/title of items are not correct
+
+4.	Verify if a user will be able to login with a Performance glitch user. (performance_glitch_user)
+			When it log in to the site using the performance_glitch_user username:
+			1. The website is behaved with performance problems
+			2. it is taking a long time for loading
+
+5.	Verify if a user cannot login with a valid username and an invalid password and Verify the messages for invalid login.
+
+6.	Verify if a user cannot login with a invalid username and an invalid password and Verify the messages for invalid login.
+
+7.	Verify the login page for both, when the username and password fields are blank and Login button is clicked and Verify the messages for invalid login.
+
+8.	Verify the login page for both, when the username field is blank and Login button is clicked and Verify the messages for invalid login.
+
+9.	Verify the login page for both, when the password field is blank and Login button is clicked and Verify the messages for invalid login.
+
+10.	Verify if the data in password field is either visible as asterisk or bullet signs.
+
+11.	Verify if the login page allows to log in simultaneously with different credentials in a different browser.
+	
+12.	Verify if the ‘Enter’ key of the keyboard is working correctly on the login page.	
+	  	
+
+Other Test Cases	
+12. Verify the login page and all its controls in different browsers
